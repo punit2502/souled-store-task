@@ -1,11 +1,11 @@
 import React from "react";
-import Carousel from "./Carousel";
+import CarouselHeader from "./CarouselHeader";
 import LineHeading from "./LineHeading";
 
 const Home = () => {
   return (
     <div className="mt-4">
-      <Carousel />
+      <CarouselHeader />
       <div className="mx-12">
         <LineHeading title="Exclusive Membership" />
         <div className="">

@@ -1,18 +1,10 @@
 import React from "react";
-import Flickity from "react-flickity-component";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
-const Carousel = () => {
-  const flickityOptions = {
-    initialIndex: 0,
-    autoPlay: true,
-  };
-
+const CarouselHeader = () => {
   return (
-    <Flickity
-      className={"w-screen"}
-      elementType={"div"}
-      options={flickityOptions}
-    >
+    <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true}>
       <img
         src="https://images.thesouledstore.com/public/theSoul/uploads/slider/20190926110619.jpg"
         alt="banner 1"
@@ -25,8 +17,8 @@ const Carousel = () => {
         src="https://images.thesouledstore.com/public/theSoul/uploads/slider/20190711164038.jpg"
         alt="banner 3"
       />
-    </Flickity>
+    </Carousel>
   );
 };
 
-export default Carousel;
+export default CarouselHeader;
