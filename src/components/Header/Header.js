@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -20,11 +21,13 @@ const Header = () => {
           </svg>
         </div>
         <div>
-          <img
-            className="h-16 -mt-8"
-            src="/img/logo.png"
-            alt="the souled store logo"
-          />
+          <Link to="/">
+            <img
+              className="h-16 -mt-8"
+              src="/img/logo.png"
+              alt="the souled store logo"
+            />
+          </Link>
         </div>
         <div className="flex">
           <div className="mr-4">
