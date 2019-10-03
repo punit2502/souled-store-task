@@ -105,11 +105,6 @@ const Footer = () => {
               src="https://www.thesouledstore.com/static/images/icons/americanExpress.png"
               alt="american express"
             />
-            <img
-              className="h-6"
-              src="https://www.thesouledstore.com/static/images/icons/cod.png"
-              alt="cod"
-            />
           </div>
         </div>
         <div className="mt-4">

@@ -4,7 +4,7 @@ const ProductTile = ({ image, title, category, price, exclprice }) => {
   return (
     <div
       style={{ maxWidth: "15rem" }}
-      className="rounded overflow-hidden shadow-lg"
+      className="rounded overflow-hidden shadow-lg mx-1 mb-4"
     >
       <img
         className="w-full"
